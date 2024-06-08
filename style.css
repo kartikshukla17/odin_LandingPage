@@ -1,0 +1,100 @@
+.header{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 48px;
+    font-style: bold;
+    color: #f9faf8;
+}
+.navigation{
+    color: white;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    font: 'hero';
+}
+.header-main{
+    font-size: 48px;
+    justify-content: center;
+    align-items: center;
+}
+.header-secondary{
+    font-size: 18px;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    color: white;
+    background-color: #3882f6;
+    cursor: pointer;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    justify-content: right;
+    justify-content: center;
+    align-items: center;
+}
+.placeholder_image{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: grey;
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+.information{
+    text-align: center;
+    background-color: white;
+}
+.allcards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 204, 204);
+}
+.author{
+    font-style: solid;
+    text-align: right;
+}
+footer{
+    flex-direction: column;
+    display: flex;
+    background-color: #3882f6;
+    text-align: left;
+}
+.ending.signup{
+    color: white;
+    background-color: #3882f6;
+    cursor: pointer;
+    justify-content: right;
+    padding: 10px 20px;
+    border: 2px white;
+
+}
